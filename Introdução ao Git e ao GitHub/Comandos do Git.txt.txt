@@ -1,0 +1,18 @@
+        Comandos do Git
+
+* (git init) : Iniciar o repositório;
+* (rm -rf .git) : Apagar repositório;
+* (git status) : Indica o estado do seu repositório;
+* (git ckeckout .) : Para remover alterações dos arquivos que estão na stage, caso não tenha sido usado comando ( git add .). 
+Caso queira um arquivo especifico no lugar do "." coloque o nome do arquivo mas se quiser que todos os arquivos tenham as alterações desfeitas deixe o ".";
+* (git clean -df) : Apaga arquivos  que não foram adicionado ao stage;
+* (git reset) : Usado para desfazer o git add;
+* (git revert HEAD) : para desfazer alterações  que ja foram comitadas;Apaga também novos arquivos;
+* (git commit --amend) : Renomear a mensagem do último commit feito;
+* (git branch) : Lista todas as branches presentes no repositório do seu pc;
+* (git branch -a) :Lista todas as branches inclusive do repositório remoto;
+* (git add .) : Adicionar todos os arquivos modificados para serem enviados no commit;
+* (gi commit -m "Descrição das modificações") : Realizar commit com descrição do que foi modificado;
+* (git config --list ) : Visulizar todas as configurações;
+* (git clone) : cria uma cópia local de um repositório armazenado em um servidor GitHub;
+* (git push origin nome-da-branch) : enviar para o repositório remoto as alterações salvas pelo nosso último commit.
